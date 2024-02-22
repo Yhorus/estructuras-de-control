@@ -35,7 +35,7 @@ colorsemaforo == "amarillo" ? console.log("aliste motores"):
 console.log(`muestra color ${colorsemaforo}, esta dañado`);
 
 
-let temeperatura = 40;
+let temperatura = 40;
 if(temperatura >= 40){
 console.log(`usted tiene fiebre, su temperatura es mayor a &{temperatura} grados`)
 }
@@ -52,11 +52,11 @@ if (tipoCliente == "normal"){
 
 let emailbasedatos = "arleth64@gmail.com";
 let clavebasedatos = "1234*";
-let emailingrasado = "arle@gmail.com";
+let email1 = "arle@gmail.com";
 let claseingresada = "1234*";
 let nombreusuario = "juan";
 
-if(emailbasedatos == emailingresado && clavebasedatos == claveingresada){
+if(emailbasedatos == email1 && clavebasedatos == claveingresada){
     console.log(`${nombreusuario} bienvenido!, seleccione opcion del sistema`);
 }else{
     console.log(`acceso denegado`);
